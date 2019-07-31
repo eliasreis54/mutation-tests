@@ -4,7 +4,7 @@
   "description": "Learning about mutant tests",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/eliasreis54/mutation-tests/issues"
   },
-  "homepage": "https://github.com/eliasreis54/mutation-tests#readme"
+  "homepage": "https://github.com/eliasreis54/mutation-tests#readme",
+  "devDependencies": {
+    "@stryker-mutator/core": "^2.0.2",
+    "jest": "^24.8.0"
+  }
 }
