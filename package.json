@@ -1,0 +1,24 @@
+{
+  "name": "mutation-tests",
+  "version": "1.0.0",
+  "description": "Learning about mutant tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliasreis54/mutation-tests.git"
+  },
+  "keywords": [
+    "mutant",
+    "test",
+    "stryker"
+  ],
+  "author": "Elias Reis <eliasreis54@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliasreis54/mutation-tests/issues"
+  },
+  "homepage": "https://github.com/eliasreis54/mutation-tests#readme"
+}
